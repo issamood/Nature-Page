@@ -47,4 +47,41 @@ body {
 .media
 {
     display: flex;
+    background-color: #1f2937;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.media-text
+{
+    margin-left: 150px;
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button{
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.media img
+{
+    object-fit: cover;
+    max-width: 600px;
+    max-height: 400px;
+    flex: auto;
+    margin-right: 150px;
+    margin-left: auto;
 }
