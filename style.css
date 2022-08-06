@@ -5,6 +5,7 @@ body
     font-family: 'Roboto', sans-serif;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     margin: 0px;
 
 }
@@ -14,7 +15,7 @@ body
 .footer
 {
     display: flex;
-    justify-content: flex-start;
+    width: 100%;
     background-color: #1f2937;
     padding: 30px 0px;
 }
@@ -54,7 +55,9 @@ body
 {
     display: flex;
     background-color: #1f2937;
-    margin: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-bottom: 50px;
     padding-top: 70px;
     justify-content: center;
@@ -114,6 +117,7 @@ body
 .gallery
 {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -151,9 +155,79 @@ body
     border-radius: 5px;
 }
 
-.content {
+.gallery .content {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     max-width: 200px;
+}
+
+/*Quote*/
+
+.quote{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e5e7eb;
+    padding: 80px 0px 150px;
+}
+
+.quote .content{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0px;
+    max-width: 1000px;
+    color: #1f2937;
+    padding: 0px 150px;
+}
+
+.quote .author{
+    width: 1000px;
+    max-width: 1000px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align:right;
+}
+
+/* Sign up */
+.signup-box{
+    display: flex;
+    margin: 100px auto 50px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.signup-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-text .title{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signup-text .text{
+    font-size: 18px;
+    color: #F9faf8;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3882f6;
+    padding: 5px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 125px;
+    margin-top: 20px;
+    margin-left: 150px;
 }
